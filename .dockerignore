@@ -1,0 +1,43 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django / Python project files
+*.db
+*.sqlite3
+.env
+.env.*
+local_settings.py
+.settings/
+instance/
+media/
+staticfiles/
+node_modules/
+
+# OS / Editor / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+venv/
